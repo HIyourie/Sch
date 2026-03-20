@@ -16,10 +16,9 @@
     <br>
     <button onclick="post()">投稿する</button>
     <script>
-post()
-{
+function post(){
 const title = document.createElement("a")
-title.innerHTML = Sch + Math.floor(Math.random() * 1000)
+title.innerHTML = "Sch" + Math.floor(Math.random() * 1000)
     document.getElementById("threads").appendChild(title)
 
 }
